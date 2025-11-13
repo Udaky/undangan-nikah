@@ -14,7 +14,7 @@
     "lint:css": "stylelint css",
     "lint:html": "htmlhint **/*.html",
     "dev": "npx esbuild js/*.js --bundle --outdir=dist --servedir=. --serve=8080",
-    "build": "npx esbuild js/*.js --bundle --minify --outdir=dist",
+    "build": "npx esbuild js/*.js --bundle --minify --outdir=public",
     "build:public": "npm run build"
   },
   "dependencies": {
