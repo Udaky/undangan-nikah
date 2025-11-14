@@ -84,7 +84,7 @@ export const guest = (() => {
 
       const template = `<small class="mt-0 mb-1 mx-0 p-0">${util.escapeHtml(
         guestName?.getAttribute("data-message")
-      )}</small><p class="m-0 p-0" style="font-size: 1.25rem">${util.escapeHtml(
+      )}</small><p class="m-0 p-0" style="font-size: 1.25rem; font-weight: bold">${util.escapeHtml(
         name
       )}</p>`;
       util.safeInnerHTML(div, template);
