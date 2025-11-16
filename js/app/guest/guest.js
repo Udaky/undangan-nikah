@@ -282,8 +282,8 @@ export const guest = (() => {
     const data = new URLSearchParams({
       action: "TEMPLATE",
       text: "The Wedding of Nindi and Rizky",
-      dates: `${formatDate("2025-10-22 10:00")}/${formatDate(
-        "2025-10-22 17:00"
+      dates: `${formatDate("2025-11-22 10:00")}/${formatDate(
+        "2025-11-22 17:00"
       )}`,
       details:
         "Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.",
